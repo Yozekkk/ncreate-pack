@@ -2,7 +2,7 @@
 
 Официальная серверная сборка NCreate для Minecraft 1.21.1 и NeoForge 21.1.250. Репозиторий содержит версионируемый [manifest](schema/official-edition-v1.schema.json), конфигурации и NCreate resource pack. Сторонние mod JAR-файлы здесь не хранятся: launcher скачивает точные версии из исходных Modrinth, FTB Maven или CurseForge CDN URL и проверяет SHA-256 и размер.
 
-Текущий источник — `packs/ncreate-server/1.0.0/`. Адрес сервера, взятый из исходного клиента: `play.ncreate.online:25076`. Публикуемый manifest находится в `channels/stable/ncreate-server.json` после успешного выпуска. Он появляется в канале только после проверки Release assets и всех внешних загрузок.
+Текущий источник — `packs/ncreate-server/1.0.1/`. Адрес сервера, взятый из исходного клиента: `play.ncreate.online:25076`. Публикуемый manifest находится в `channels/stable/ncreate-server.json` после успешного выпуска. Он появляется в канале только после проверки Release assets и всех внешних загрузок. Manifest 1.0.1 дополнительно содержит provider и доступные project/version ID каждого мода; игровой состав не изменился с 1.0.0.
 
 ## Следующая версия
 
@@ -21,8 +21,9 @@
 ```bash
 npm ci --ignore-scripts
 npm run check
-node scripts/prepare-release.mjs --edition ncreate-server --channel stable --version 1.0.0
-node scripts/verify-external-sources.mjs dist/manifest.json
+output="$(mktemp -d)"
+node scripts/prepare-release.mjs --edition ncreate-server --channel stable --version 1.1.0 --output "$output"
+node scripts/verify-external-sources.mjs "$output/manifest.json"
 ```
 
 `dist/` — временный результат сборки Release. Его не нужно коммитить. Исходный пользовательский ZIP также не входит в Git. Изменённый код лаунчера публикуется отдельно в [Yozekkk/ncreate-launcher](https://github.com/Yozekkk/ncreate-launcher).
