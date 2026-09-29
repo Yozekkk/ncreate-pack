@@ -1,0 +1,35 @@
+#Effets visuels des cosmetiques (rendus cote client, aucune particule vanilla)
+[fx]
+	#Qualite des effets : 0 = trainees seulement chez les autres joueurs, 1 = + auras de sol et corps,
+	#2 = tout (defaut), 3 = tout avec plein detail jusqu'a 70 % de la distance max
+	# Default: 2
+	# Range: 0 ~ 3
+	quality = 2
+	#Nombre maximal d'effets ponctuels simultanes
+	# Default: 160
+	# Range: 16 ~ 1000
+	maxEffects = 160
+	#Nombre maximal de joueurs dont les effets permanents sont rendus par image (les plus proches)
+	# Default: 24
+	# Range: 1 ~ 200
+	maxPlayers = 24
+	#Distance maximale (blocs) a laquelle les effets sont rendus
+	# Default: 48
+	# Range: 16 ~ 256
+	maxDistance = 48
+	#Textures animees (feu, foudre, tissu...) sur les effets
+	textured = true
+	#Afficher les effets cosmetiques des autres joueurs
+	showOthers = true
+	#Afficher ses propres effets cosmetiques (vue a la 3e personne, et trainee derriere soi)
+	showSelf = true
+	#Tremblement de camera sur les gros effets (0 = desactive, 1 = normal)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	cameraShake = 1.0
+	#Sons des effets (atterrissages, crashs, finish, promotions...)
+	sounds = true
+	#Volume des sons des effets (0 = muet, 1 = normal, 2 = fort)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	soundVolume = 1.0

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ncreate-server",
+  "name": "NCreate Server",
+  "version": "1.0.1",
+  "minecraft": "1.21.1",
+  "loader": {
+    "kind": "neoforge",
+    "version": "21.1.250"
+  },
+  "java": {
+    "major": 21
+  },
+  "memory": {
+    "minimumMb": 1024,
+    "recommendedMb": 5120,
+    "maximumMb": 16384
+  },
+  "changelog": "Первый выпуск официальной сборки NCreate Server."
+}

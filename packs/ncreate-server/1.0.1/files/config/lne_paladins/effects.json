@@ -1,0 +1,19 @@
+{
+  "effects": {
+    "lne_paladins:sirens_song": {
+      "attributes": []
+    },
+    "lne_paladins:holy_prevention": {
+      "attributes": []
+    },
+    "lne_paladins:templars_retribution": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    }
+  }
+}

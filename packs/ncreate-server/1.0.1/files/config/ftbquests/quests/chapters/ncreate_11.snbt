@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_11"
+	group: "04AD4A0625C464E4"
+	icon: {
+		id: "cataclysm:ancient_metal_ingot"
+	}
+	id: "38FF0FB8105538B4"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "287566BEE772F8F7"
+			rewards: [{
+				id: "009D866A7912602C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "414B4C43F8764EAE"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["287566BEE772F8F7"]
+			id: "2BFB5C574BBBC116"
+			rewards: [{
+				id: "2287DDCB39D42C63"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "6DA955D554FD4FFE"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "77F7D7874F30A0B0"
+			rewards: [{
+				id: "183D52807DE10F2A"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "3870EDCDE3C4B640"
+				item: { count: 1, id: "cataclysm:altar_of_abyss" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F7D7874F30A0B0"]
+			id: "03415BB0811099AD"
+			rewards: [{
+				id: "4EFBD8CE9E26F761"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "2559BA395238A99A"
+				item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "22548E8C4C4CE8B5"
+			rewards: [{
+				id: "5CC71F08222BBF14"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "7731A71B4BA6E6EB"
+				item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "766CD42B87CEA246"
+			rewards: [{
+				id: "006F912C70F0586D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "0483C248E9B012A0"
+				item: { count: 1, id: "aquamirae:abyssal_amethyst" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["766CD42B87CEA246"]
+			id: "73DD2C38A4E097A5"
+			rewards: [{
+				id: "4E5EDABAFF9B4CDB"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "71149280A5F93D8D"
+				item: { count: 1, id: "aquamirae:dagger_of_greed" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			id: "5F5486E26F4A5050"
+			rewards: [{
+				id: "63D31EF9CDC7E691"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "4C3F14290407AEFD"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "7FE3D56350982301"
+			rewards: [{
+				id: "50E84FC22C21F71B"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "5FF4DF747EC45B3F"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "0DCCB399BFBA073F"
+			rewards: [{
+				id: "1A381A01F829CC85"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "2D8B6007BD203E2A"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B19BFBF081C9F25"]
+			id: "59A85DBEC7C89CD1"
+			rewards: [{
+				id: "3CAE4FD264BD15DB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "28D4455D7DDC1C87"
+				item: { count: 1, id: "cataclysm:altar_of_abyss" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "4A0739B1E97294B1"
+			rewards: [{
+				id: "12EB039315D2538E"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "6821B4A90EA2A6A9"
+				item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4A0739B1E97294B1"]
+			id: "02126C712A281D34"
+			rewards: [{
+				id: "7360958A5FD7ECAF"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "6CF0D41D8055142C"
+				item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02126C712A281D34"]
+			id: "6B10E94147F981F5"
+			rewards: [{
+				id: "57BB1820735D6C8E"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "184EC511C4163BB3"
+				item: { count: 1, id: "aquamirae:abyssal_amethyst" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B10E94147F981F5"]
+			id: "5155413C1928F331"
+			rewards: [{
+				id: "7465FD5C0D42080F"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "1B698C327B6C0F35"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "3618BD3B19C396E9"
+			rewards: [{
+				id: "1170FDDBCADC06EF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3A7F72160A00DC0F"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "73886ABAC839BFBC"
+			rewards: [{
+				id: "74C0FA1DEFEB92C9"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "0D72414A0AFB4DAE"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "66B81359C2E9B077"
+			rewards: [{
+				id: "490EB816F301BF4A"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "3F7D5E795D2B5AD6"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["66B81359C2E9B077"]
+			id: "70B645B58A3C9ADE"
+			rewards: [{
+				id: "5AF860643EE849DC"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "0CA66F7081C127E4"
+				item: { count: 1, id: "cataclysm:altar_of_abyss" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "5A311737879B67A9"
+			rewards: [{
+				id: "0FCE5FC53E24FC0A"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "7ED0313278A0EF61"
+				item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

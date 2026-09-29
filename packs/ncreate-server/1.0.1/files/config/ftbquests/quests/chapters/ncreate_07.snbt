@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_07"
+	group: ""
+	icon: {
+		id: "create:andesite_casing"
+	}
+	id: "3300DDBA2C54C055"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["514F27CD3C13FC97"]
+			id: "0B9AB7A577A8B395"
+			rewards: [{
+				id: "57DA19279310A0C5"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "3B0ACB829A14C5FF"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "73D6B84B02275319"
+			rewards: [{
+				id: "006DD5A9593C5C9A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0BADFBD8813BDBB2"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "43416188FB834DD8"
+			rewards: [{
+				id: "60EA71EC86634009"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "1C4DC4775CE2D2A8"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43416188FB834DD8"]
+			id: "4E6DFAF6887D3458"
+			rewards: [{
+				id: "43F20DEB23B40E87"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "2DDD9D5BC2236B87"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E6DFAF6887D3458"]
+			id: "52FBF13CB7EDCBA4"
+			rewards: [{
+				id: "1164B5FC2BAF6FCC"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "21F34FE2D2EAA4A2"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "2770AEE1A8C4339F"
+			rewards: [{
+				id: "3D7C4B7F6B3AFEE1"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "026CFAF2E2DB81B5"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2770AEE1A8C4339F"]
+			id: "67E93AEFAF62FA44"
+			rewards: [{
+				id: "12A8C61C0A6CB9D5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "70033F4D1B38619F"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			id: "64DB564C88322A54"
+			rewards: [{
+				id: "1C413421BD5A7D1F"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "3C046B974B619A51"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64DB564C88322A54"]
+			id: "4F70009A1FA65FB8"
+			rewards: [{
+				id: "710C256E95D93D4D"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "140BA47EA69F323D"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F70009A1FA65FB8"]
+			id: "4262DA21A94BFFA9"
+			rewards: [{
+				id: "17C2B9C59D42B092"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "010A0B95B7E9AE3F"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "71040AF4A7030265"
+			rewards: [{
+				id: "7B71C4CE0E2C4DB1"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "3B74B8F594A9DB9E"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71040AF4A7030265"]
+			id: "625D3877623FA91B"
+			rewards: [{
+				id: "56449ECA874E9793"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1C9D4500419B0791"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			id: "5ED671B5116482A9"
+			rewards: [{
+				id: "55ED4C429AB4516A"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "45D6E184EF6ACF7C"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "2E541205673A31CF"
+			rewards: [{
+				id: "5B2137D2E67A07FE"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "155011B9AAD8CF9A"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "4ED7584E01DC7E56"
+			rewards: [{
+				id: "1BA65F046F698C7D"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "32FE334CFF8AE37C"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24EA83437B3E6D80"]
+			id: "14E78F5AE941AB93"
+			rewards: [{
+				id: "011CCD15A3B629AA"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "6A0DA0BE0235397D"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["14E78F5AE941AB93"]
+			id: "7E479FC65DA8F526"
+			rewards: [{
+				id: "5C8A0B390F2BE34A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2B1EB6F5CB66DD9E"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "1B5AE9EF36F87F3E"
+			rewards: [{
+				id: "03F18356C6566C51"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "7FEF7FB3EFA06DB4"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1B5AE9EF36F87F3E"]
+			id: "496A700DBE137ABB"
+			rewards: [{
+				id: "45976C0778E9CF91"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "06DBF19691538E51"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			dependencies: ["496A700DBE137ABB"]
+			id: "6939EC3B2B488274"
+			rewards: [{
+				id: "1AE5F74D417117A4"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "0010C2863BE3C829"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

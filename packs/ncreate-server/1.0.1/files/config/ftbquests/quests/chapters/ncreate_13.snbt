@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_13"
+	group: "5EC70A21D2AD8FE7"
+	icon: {
+		id: "mekanism:atomic_disassembler"
+	}
+	id: "1FE8D470996A8145"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64BAE4F08786C37B"]
+			id: "20D3EAE513BEDBE7"
+			rewards: [{
+				id: "70A262755C6797C3"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "0F17DFE5EA12F81E"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D3EAE513BEDBE7"]
+			id: "7A8FBAB03D24756A"
+			rewards: [{
+				id: "702B2AF273B539EF"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "79D87AA85738F30C"
+				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A8FBAB03D24756A"]
+			id: "4B568D72A5DD8F16"
+			rewards: [{
+				id: "1C9B1553BC06252F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7C5438107387C189"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "7A7E7DD302208F83"
+			rewards: [{
+				id: "2DB136F76AEC540D"
+				type: "xp"
+				xp: 43
+			}]
+			tasks: [{
+				id: "29C3BCF9EFBEC324"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "698884E819D83870"
+			rewards: [{
+				id: "64A611C0CBD5612E"
+				type: "xp"
+				xp: 46
+			}]
+			tasks: [{
+				id: "4EA42B8E605BFD18"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31A4D9CE636C853D"]
+			id: "76178271A70FEE21"
+			rewards: [{
+				id: "5DDA848E981297AC"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "4BDF0FC71F634B96"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "10AFE6513A55ED38"
+			rewards: [{
+				id: "65E5CEBC7D0A28A3"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "751796D55ABD5686"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10AFE6513A55ED38"]
+			id: "607D024AD22961A6"
+			rewards: [{
+				id: "712E465FD1BE7220"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "40B3AB79F6EFD93D"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["607D024AD22961A6"]
+			id: "7C2D386CE6AE527F"
+			rewards: [{
+				id: "667EFCFD06A9A6EE"
+				type: "xp"
+				xp: 43
+			}]
+			tasks: [{
+				id: "34F66BD9B582060C"
+				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C2D386CE6AE527F"]
+			id: "3073343C76301C65"
+			rewards: [{
+				id: "369EC4C44F9175CA"
+				type: "xp"
+				xp: 46
+			}]
+			tasks: [{
+				id: "2542B2B418E27390"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D2467A142C6F3FF"]
+			id: "6AD10EF7CB9E0931"
+			rewards: [{
+				id: "4EC49C25B6DA2D0A"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "0DC0F63EF77D0513"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "019790EACD23132B"
+			rewards: [{
+				id: "1668B093475E2D9C"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "00A9D30A26154C90"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["019790EACD23132B"]
+			id: "4679DBA5BEA001A5"
+			rewards: [{
+				id: "38791529AE77FE09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "77C8704BA30EB04E"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "7C7C26BD9F1F326B"
+			rewards: [{
+				id: "63571388F3C534FD"
+				type: "xp"
+				xp: 43
+			}]
+			tasks: [{
+				id: "0EA08B643D238868"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "07D4DCDFD2F7D9D2"
+			rewards: [{
+				id: "054E079BD5DC9C63"
+				type: "xp"
+				xp: 46
+			}]
+			tasks: [{
+				id: "6CCE0E6F826AD8D6"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "3467B00BB052B70B"
+			rewards: [{
+				id: "25B9E176D71769A7"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "3ED63BF2C7AC06C8"
+				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "10D431EEA37BCC6E"
+			rewards: [{
+				id: "120F0A13CA8983DF"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "709C0629983B5C8D"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "59929758C5B20B30"
+			rewards: [{
+				id: "513FD808ABEB0BAD"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "13CE36113211E250"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["59929758C5B20B30"]
+			id: "41A93A5334FF096C"
+			rewards: [{
+				id: "5177446A7CDE8F3D"
+				type: "xp"
+				xp: 43
+			}]
+			tasks: [{
+				id: "6AB5BE0110972AC5"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "2AAB3137CC8D4E14"
+			rewards: [{
+				id: "78E64E8D4FBC5A1C"
+				type: "xp"
+				xp: 46
+			}]
+			tasks: [{
+				id: "724217F11779E0C9"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

@@ -1,0 +1,14 @@
+#How contracts may be turned in.
+#TICKET_ONLY: turn in a Contract Ticket directly at the Contract Board using items from the player's inventory. The Contract Box recipe/item is disabled entirely.
+#BOX_ONLY: fill a Contract Box, seal it with the ticket, then deliver the sealed box to the Contract Board. Turning in a ticket straight from inventory is disabled.
+#Allowed Values: TICKET_ONLY, BOX_ONLY
+deliveryMode = "BOX_ONLY"
+#How often (in real seconds) the Contract Board attempts to refill/rotate its offers. Matches Bountiful's default (45).
+# Default: 45
+# Range: > 1
+boardUpdateFrequencySeconds = 45
+#Whether players are allowed to break the Contract Board at all.
+boardCanBreak = true
+#If true, every Contract Board on the server shares one pool of offers/timers (GlobalBoardData) instead of each board keeping its own independent state.
+#Matches Bountiful's board.globalBoardState default (false).
+boardGlobalState = false

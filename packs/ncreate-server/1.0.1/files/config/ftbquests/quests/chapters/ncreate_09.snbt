@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_09"
+	group: "165215BEBFD0111A"
+	icon: {
+		id: "farmersdelight:cutting_board"
+	}
+	id: "5052A16983B44C29"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5FBA606D4F2C8275"
+			rewards: [{
+				id: "145EF4BD4F27787C"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "34C6E2041D28B467"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FBA606D4F2C8275"]
+			id: "4274C7C279EE75EB"
+			rewards: [{
+				id: "44C71A503A94F51B"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "03C0D6B9A117A797"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "0D24B587155DB91A"
+			rewards: [{
+				id: "27665650FE3A507E"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "3CB8779FF781F239"
+				item: { count: 1, id: "farmersdelight:canvas_sign" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D24B587155DB91A"]
+			id: "01B7CB53BF6EDBAE"
+			rewards: [{
+				id: "13DDFE48713FD09C"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5E94F626B1047429"
+				item: { components: { "tfc:food": { creation_date: 7200L } }, count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "1E081A93965AC635"
+			rewards: [{
+				id: "1FA6CB6CE4E65B06"
+				type: "xp"
+				xp: 38
+			}]
+			tasks: [{
+				id: "1F416C4391A38E54"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "farmersdelight:bacon" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C27AA60E24FB601"]
+			id: "1AED462F540DAFAE"
+			rewards: [{
+				id: "59C872C8CAF048EB"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "694CB135EDA896C2"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "1483DB3CD7D11165"
+			rewards: [{
+				id: "2924AD3C193D489E"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "4F82725D108071A3"
+				item: { components: { "tfc:food": { creation_date: 7200L } }, count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1483DB3CD7D11165"]
+			id: "4FCCDD32F5AD2EE2"
+			rewards: [{
+				id: "14885120CB19CAEF"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "76662377708F33BB"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "00731919593CF04B"
+			rewards: [{
+				id: "081A12D1F0F84706"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "03E85EB9C0CC3A7D"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00731919593CF04B"]
+			id: "79FE6479DEDBB279"
+			rewards: [{
+				id: "62BDBB5A9AB03FF0"
+				type: "xp"
+				xp: 38
+			}]
+			tasks: [{
+				id: "6FF4380B9B4F8DA0"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "70D7B0E5447E9C98"
+			rewards: [{
+				id: "0BFE45CFB1C163D5"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "70D5C6D9BB8C0F59"
+				item: { count: 1, id: "farmersdelight:canvas_sign" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "01892E8AF4B1B817"
+			rewards: [{
+				id: "7A807A54EB70571E"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "15DB056B91033A50"
+				item: { components: { "tfc:food": { creation_date: 7200L } }, count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["01892E8AF4B1B817"]
+			id: "14BFEC4BAF7F2207"
+			rewards: [{
+				id: "6FE8EC69EBE5E214"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "2069D4242422C2BA"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "farmersdelight:bacon" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "28AD2FC446C1E936"
+			rewards: [{
+				id: "098DF7FB5AC08D38"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "612393A35C8C0873"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28AD2FC446C1E936"]
+			id: "28D6EBF38F8F370B"
+			rewards: [{
+				id: "2AE2741D74C2996C"
+				type: "xp"
+				xp: 38
+			}]
+			tasks: [{
+				id: "5028C376C5D4E79F"
+				item: { components: { "tfc:food": { creation_date: 7200L } }, count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46BF6FA1DEEBD773"]
+			id: "621A6DE2A53CFB84"
+			rewards: [{
+				id: "058D7F131D8A184C"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "1B1F1A21CFA34657"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["621A6DE2A53CFB84"]
+			id: "6AA3A82122F71FB9"
+			rewards: [{
+				id: "03C43B01A14523EE"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "6833BA8F38879B46"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6AA3A82122F71FB9"]
+			id: "01DE003360CCD5D4"
+			rewards: [{
+				id: "09EF206FEDFA09E2"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "26179980F10CFAFD"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			id: "22A075B0219D0A0B"
+			rewards: [{
+				id: "3312E72E0854F39A"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5ED18576CDCAE28F"
+				item: { count: 1, id: "farmersdelight:canvas_sign" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			dependencies: ["22A075B0219D0A0B"]
+			id: "7441A7C3A393296C"
+			rewards: [{
+				id: "3DE428F7E39A97F7"
+				type: "xp"
+				xp: 38
+			}]
+			tasks: [{
+				id: "370A1EF360ACEDC0"
+				item: { components: { "tfc:food": { creation_date: 7200L } }, count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

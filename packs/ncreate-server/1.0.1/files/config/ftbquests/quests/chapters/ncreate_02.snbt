@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_02"
+	group: "5837DA67497C6361"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "7D523B41204E47C2"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26523690A29D7DF6"
+			rewards: [{
+				id: "78C8EC4E11173F6E"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "4DA88067E63E9D7E"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6B31740061E7DEBE"
+			rewards: [{
+				id: "63E9E1E807017482"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "42CF33AA3C254375"
+				item: { count: 1, id: "minecraft:map" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "74B870395AFE078C"
+			rewards: [{
+				id: "4988E06CF5F1DA50"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "4909DD2B2F73AF07"
+				item: { count: 1, id: "minecraft:clock" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74B870395AFE078C"]
+			id: "13B1839A367DA228"
+			rewards: [{
+				id: "0AEE5CB5D25AC4E1"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "36902408992347D5"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13B1839A367DA228"]
+			id: "214C5B0E7FA712B7"
+			rewards: [{
+				id: "764D927F6FC3DF54"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "2911D7CB498541BC"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "56741DD0DE804177"
+			rewards: [{
+				id: "6F96EC0F9746D8EE"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "352469A4171A6AAC"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "145766C4FB72C72A"
+			rewards: [{
+				id: "43DB02A68BAB74D2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5DD1F3213D322EDA"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["145766C4FB72C72A"]
+			id: "2B5544709CB5616B"
+			rewards: [{
+				id: "7AE228C0AB47742D"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "3A61D6C67DD13490"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B5544709CB5616B"]
+			id: "1D399EF1B760324C"
+			rewards: [{
+				id: "1277B732DEBEC696"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "63D0DD1DDA1842DB"
+				item: { count: 1, id: "minecraft:map" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "31447631A0718295"
+			rewards: [{
+				id: "0E87999B69D657E2"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "03362CA198D8E303"
+				type: "checkmark"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "19F9CD662E53D331"
+			rewards: [{
+				id: "4D27A6BC49059544"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "6B3E1FB97B9BAFE4"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "289FACE171318F80"
+			rewards: [{
+				id: "0F54B58234FCD356"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "693EA615FC60D790"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["289FACE171318F80"]
+			id: "554CBA05BDC0B2FC"
+			rewards: [{
+				id: "1E4209327D69148F"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "58A9621775E65AE1"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["554CBA05BDC0B2FC"]
+			id: "11057D745B34D887"
+			rewards: [{
+				id: "773D55F99BC915AE"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "69A6F81943E61879"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			dependencies: ["11057D745B34D887"]
+			id: "560E97C4970D570D"
+			rewards: [{
+				id: "3F3FB9356BE5F3A0"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "550852E207093F92"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "299E0E5DBE6967A5"
+			rewards: [{
+				id: "3645CAA934414E9B"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "015FCB31419F88E4"
+				item: { count: 1, id: "minecraft:map" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "05B40A18D48265DD"
+			rewards: [{
+				id: "5D02D6D5187F54BD"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "78726D221536F788"
+				item: { count: 1, id: "minecraft:clock" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			dependencies: ["05B40A18D48265DD"]
+			id: "3709155A63287E0E"
+			rewards: [{
+				id: "42CA10B22561CBDC"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "08BFBABD6A756033"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3709155A63287E0E"]
+			id: "1D8F529A9D567FC4"
+			rewards: [{
+				id: "358C42B44EA9F004"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "54563731D2B94BBC"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "5211189997E2A23A"
+			rewards: [{
+				id: "7D09410216113EC2"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "164538AAE5F648CA"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}
