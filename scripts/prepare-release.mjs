@@ -1,7 +1,6 @@
 import Ajv2020 from 'ajv/dist/2020.js'
 import addFormats from 'ajv-formats'
 import {
-  copyFileSync,
   closeSync,
   existsSync,
   openSync,
@@ -202,15 +201,11 @@ export function buildRelease({ root, edition, channel, version, output, reposito
         (policy.updatePolicy !== undefined && !['managed_only', 'preserve'].includes(policy.updatePolicy))) {
       throw new Error(`invalid file policy: ${relative}`)
     }
-    const extension = path.posix.extname(relative).toLowerCase()
-    const suffix = /^\.[a-z0-9]{1,12}$/.test(extension) ? extension : '.bin'
-    const assetName = `file-${createHash('sha256').update(relative).digest('hex')}${suffix}`
-    const staged = path.join(assetsDirectory, assetName)
-    copyFileSync(absolute, staged)
+    const encoded = relative.split('/').map(encodeURIComponent).join('/')
     return {
       path: relative,
-      url: `https://github.com/${repository}/releases/download/${tag}/${assetName}`,
-      sha256: sha256File(staged),
+      url: `https://raw.githubusercontent.com/${repository}/${tag}/packs/${edition}/${version}/files/${encoded}`,
+      sha256: sha256File(absolute),
       size,
       required: policy.required ?? true,
       updatePolicy: policy.updatePolicy ?? 'managed_only',

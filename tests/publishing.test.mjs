@@ -31,12 +31,12 @@ test('builds a schema-valid, hashed versioned release and advances only its chan
     assert.equal(manifest.releaseChannel, 'stable')
     assert.equal(manifest.files.length, 1)
     assert.equal(manifest.files[0].path, 'config/example.toml')
-    assert.match(manifest.files[0].url, /releases\/download\/pack-ncreate-server-stable-v1\.2\.3\/file-[a-f0-9]{64}\.toml$/)
-    const asset = path.join(assetsDirectory, path.basename(manifest.files[0].url))
+    assert.match(manifest.files[0].url, /raw\.githubusercontent\.com\/Yozekkk\/ncreate-pack\/pack-ncreate-server-stable-v1\.2\.3\/packs\/ncreate-server\/1\.2\.3\/files\/config\/example\.toml$/)
+    const asset = path.join(root, 'packs/ncreate-server/1.2.3/files/config/example.toml')
     assert.equal(manifest.files[0].sha256, sha256File(asset))
     assert.equal(manifest.files[0].size, statSync(asset).size)
     const checksums = readFileSync(path.join(assetsDirectory, 'SHA256SUMS.txt'), 'utf8')
-    assert.match(checksums, new RegExp(`${manifest.files[0].sha256}  ${path.basename(asset)}`))
+    assert.match(checksums, /manifest\.json/)
     assert.equal(activateChannel({ root, edition: 'ncreate-server', channel: 'stable', manifestPath: path.join(output, 'manifest.json') }), true)
     assert.equal(activateChannel({ root, edition: 'ncreate-server', channel: 'stable', manifestPath: path.join(output, 'manifest.json') }), false)
     assert.equal(readFileSync(path.join(root, 'channels/stable/ncreate-server.json'), 'utf8'),
@@ -62,11 +62,11 @@ test('rejects unsafe pack paths, remote commands and mismatched release assets',
     writeFileSync(source, JSON.stringify(metadata))
     const output = path.join(root, 'good')
     const { assetsDirectory } = buildRelease({ root, edition: 'ncreate-server', channel: 'stable', version: '1.2.3', output })
-    const assets = ['manifest.json', 'SHA256SUMS.txt', path.basename(JSON.parse(readFileSync(path.join(output, 'manifest.json'), 'utf8')).files[0].url)]
+    const assets = ['manifest.json', 'SHA256SUMS.txt']
     const remote = { assets: assets.map((name) => ({ name, size: statSync(path.join(assetsDirectory, name)).size, digest: `sha256:${sha256File(path.join(assetsDirectory, name))}` })) }
     const remotePath = path.join(root, 'remote.json')
     writeFileSync(remotePath, JSON.stringify(remote))
-    assert.equal(verifyReleaseAssets(assetsDirectory, remotePath), 3)
+    assert.equal(verifyReleaseAssets(assetsDirectory, remotePath), 2)
     remote.assets[0].digest = `sha256:${createHash('sha256').update('wrong').digest('hex')}`
     writeFileSync(remotePath, JSON.stringify(remote))
     assert.throws(() => verifyReleaseAssets(assetsDirectory, remotePath), /differs/)
