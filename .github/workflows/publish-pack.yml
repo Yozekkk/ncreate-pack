@@ -53,6 +53,13 @@ jobs:
         run: |
           set -euo pipefail
           tag="$(cat dist/tag.txt)"
+          if git ls-remote --exit-code --tags origin "refs/tags/$tag" >/dev/null; then
+            git fetch origin "refs/tags/$tag:refs/tags/$tag"
+            test "$(git rev-list -n 1 "$tag")" = "$GITHUB_SHA"
+          else
+            git tag "$tag" "$GITHUB_SHA"
+            git push origin "refs/tags/$tag"
+          fi
           if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             if [[ "$CHANNEL" == beta ]]; then
               gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "NCreate $EDITION $VERSION Beta" --notes-file dist/release-notes.md --draft --prerelease
@@ -60,8 +67,6 @@ jobs:
               gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "NCreate $EDITION $VERSION" --notes-file dist/release-notes.md --draft
             fi
           fi
-          git fetch origin "refs/tags/$tag:refs/tags/$tag"
-          test "$(git rev-list -n 1 "$tag")" = "$GITHUB_SHA"
           release_is_draft="$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)"
           gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' > dist/existing-assets.txt
           missing=()
