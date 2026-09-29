@@ -111,6 +111,18 @@
               "preserve"
             ],
             "default": "managed_only"
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["provider"],
+            "properties": {
+              "provider": {"enum": ["modrinth", "modrinth-cdn", "ftb", "curseforge"]},
+              "projectId": {"oneOf": [{"type": "string"}, {"type": "integer", "minimum": 0}]},
+              "versionId": {"type": "string"},
+              "fileId": {"type": "integer", "minimum": 0},
+              "sourcePage": {"type": "string", "format": "uri", "pattern": "^https://"}
+            }
           }
         }
       }

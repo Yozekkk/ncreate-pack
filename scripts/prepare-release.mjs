@@ -253,10 +253,15 @@ export function buildRelease({ root, edition, channel, version, output, reposito
         (policy.updatePolicy !== undefined && !['managed_only', 'preserve'].includes(policy.updatePolicy))) {
       throw new Error(`invalid file policy: ${relative}`)
     }
+    const provenance = { provider: source.provider }
+    for (const key of ['projectId', 'versionId', 'fileId', 'sourcePage']) {
+      if (source[key] !== undefined) provenance[key] = source[key]
+    }
     files.push({
       path: relative, url: source.url, sha256: source.sha256, size: source.size,
       required: policy.required ?? true,
       updatePolicy: policy.updatePolicy ?? 'managed_only',
+      source: provenance,
     })
   }
   files.sort((a, b) => a.path.localeCompare(b.path, 'en'))

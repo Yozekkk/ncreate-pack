@@ -1,0 +1,10 @@
+{
+  "mods/example.jar": {
+    "provider": "modrinth",
+    "projectId": "AbcDef12",
+    "versionId": "1234ABCD",
+    "url": "https://cdn.modrinth.com/data/AbcDef12/versions/1234ABCD/example.jar",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "size": 5
+  }
+}
