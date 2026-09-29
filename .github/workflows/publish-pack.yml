@@ -1,0 +1,101 @@
+name: Publish official pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: Official edition
+        required: true
+        type: choice
+        options: [ncreate-server]
+      channel:
+        description: Release channel
+        required: true
+        type: choice
+        options: [stable, beta]
+      version:
+        description: SemVer directory in packs/<edition>/<version>
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ncreate-pack-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      EDITION: ${{ inputs.edition }}
+      CHANNEL: ${{ inputs.channel }}
+      VERSION: ${{ inputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - name: Prepare and validate release files
+        run: node scripts/prepare-release.mjs --edition "$EDITION" --channel "$CHANNEL" --version "$VERSION"
+      - name: Verify upstream downloads
+        run: node scripts/verify-external-sources.mjs dist/manifest.json
+      - name: Create draft release and upload verified assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="$(cat dist/tag.txt)"
+          if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            if [[ "$CHANNEL" == beta ]]; then
+              gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "NCreate $EDITION $VERSION Beta" --notes-file dist/release-notes.md --draft --prerelease
+            else
+              gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "NCreate $EDITION $VERSION" --notes-file dist/release-notes.md --draft
+            fi
+          fi
+          git fetch origin "refs/tags/$tag:refs/tags/$tag"
+          test "$(git rev-list -n 1 "$tag")" = "$GITHUB_SHA"
+          release_is_draft="$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)"
+          gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' > dist/existing-assets.txt
+          missing=()
+          for asset in dist/release-assets/*; do
+            name="$(basename "$asset")"
+            if grep -Fxq "$name" dist/existing-assets.txt; then
+              continue
+            fi
+            test "$release_is_draft" = true
+            missing+=("$asset")
+          done
+          if (( ${#missing[@]} )); then
+            gh release upload "$tag" "${missing[@]}" --repo "$GITHUB_REPOSITORY"
+          fi
+          gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json assets --jq '{assets: [.assets[] | {name, size, digest}]}' > dist/remote-assets.json
+          node scripts/verify-release-assets.mjs dist/release-assets dist/remote-assets.json
+      - name: Publish release and advance channel
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="$(cat dist/tag.txt)"
+          if [[ "$CHANNEL" == beta ]]; then
+            gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease
+          else
+            gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease=false
+          fi
+          git fetch origin main
+          git checkout -B publish-channel origin/main
+          node scripts/activate-channel.mjs "$EDITION" "$CHANNEL" dist/manifest.json
+          git add "channels/$CHANNEL/$EDITION.json"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "release: publish $EDITION $VERSION to $CHANNEL"
+          git push origin HEAD:main

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "ncreate-server",
+  "name": "NCreate Server",
+  "version": "1.2.3",
+  "minecraft": "1.21.1",
+  "loader": { "kind": "fabric", "version": "0.16.10" },
+  "java": { "major": 21 },
+  "memory": { "minimumMb": 2048, "recommendedMb": 4096, "maximumMb": 8192 },
+  "changelog": "Controlled test fixture; not a public NCreate pack."
+}

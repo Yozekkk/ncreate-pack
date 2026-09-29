@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ncreate.org/schema/official-edition-v1.schema.json",
+  "title": "NCreate official edition manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "version",
+    "minecraft",
+    "loader",
+    "files",
+    "java",
+    "memory",
+    "releaseChannel"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "enum": [
+        "ncreate-server"
+      ]
+    },
+    "name": {
+      "const": "NCreate Server"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "minecraft": {
+      "type": "string",
+      "minLength": 1
+    },
+    "releaseChannel": {
+      "enum": [
+        "stable",
+        "beta"
+      ]
+    },
+    "changelog": {
+      "type": "string"
+    },
+    "loader": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "vanilla",
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ]
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "files": {
+      "type": "array",
+      "maxItems": 20000,
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "url",
+          "sha256",
+          "size"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Safe relative Unix path; protected user paths and symlinks are rejected by the engine."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2147483648
+          },
+          "required": {
+            "type": "boolean",
+            "default": true
+          },
+          "updatePolicy": {
+            "enum": [
+              "managed_only",
+              "preserve"
+            ],
+            "default": "managed_only"
+          }
+        }
+      }
+    },
+    "java": {
+      "type": "object",
+      "required": [
+        "major"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "major": {
+          "type": "integer",
+          "minimum": 8
+        }
+      }
+    },
+    "memory": {
+      "type": "object",
+      "required": [
+        "minimumMb",
+        "recommendedMb",
+        "maximumMb"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "minimumMb": {
+          "type": "integer",
+          "minimum": 512,
+          "maximum": 65536
+        },
+        "recommendedMb": {
+          "type": "integer",
+          "minimum": 512,
+          "maximum": 65536
+        },
+        "maximumMb": {
+          "type": "integer",
+          "minimum": 512,
+          "maximum": 65536
+        }
+      }
+    },
+    "launch": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "jvmArgs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "gameArgs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "servers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "address"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

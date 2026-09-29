@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -lt 2 || $# -gt 3 ]]; then
+  printf 'Usage: %s PACK.zip VERSION [stable|beta]\n' "$0" >&2
+  exit 2
+fi
+
+archive="$(realpath "$1")"
+version="$2"
+channel="${3:-stable}"
+if [[ "$channel" != stable && "$channel" != beta ]]; then
+  printf 'Channel must be stable or beta\n' >&2
+  exit 2
+fi
+
+repo="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo"
+if [[ -n "$(git status --porcelain)" ]]; then
+  printf 'Commit or stash existing changes before publishing a new pack.\n' >&2
+  exit 1
+fi
+git fetch origin main
+if [[ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]]; then
+  printf 'Local HEAD must match origin/main before publishing.\n' >&2
+  exit 1
+fi
+
+python3 scripts/import-pack.py "$archive" "$version" --root "$repo"
+npm ci --ignore-scripts
+npm run check
+node scripts/prepare-release.mjs --edition ncreate-server --channel "$channel" --version "$version"
+node scripts/verify-external-sources.mjs dist/manifest.json
+
+git add "packs/ncreate-server/$version"
+git commit -m "release(pack): prepare NCreate Server $version"
+git push origin HEAD:main
+gh workflow run publish-pack.yml --repo Yozekkk/ncreate-pack --ref main \
+  -f edition=ncreate-server -f channel="$channel" -f version="$version"
+printf 'Publishing started: https://github.com/Yozekkk/ncreate-pack/actions/workflows/publish-pack.yml\n'
