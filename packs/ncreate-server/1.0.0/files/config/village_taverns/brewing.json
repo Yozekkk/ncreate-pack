@@ -1,0 +1,108 @@
+{
+  "enabled": true,
+  "recipes": [
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:amethyst_shard",
+      "result": "spell_power:spell_power.arcane",
+      "note": "Arcane Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:blaze_rod",
+      "result": "spell_power:spell_power.fire",
+      "note": "Fire Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:snowball",
+      "result": "spell_power:spell_power.frost",
+      "note": "Frost Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:honeycomb",
+      "result": "spell_power:spell_power.healing",
+      "note": "Healing Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:glow_ink_sac",
+      "result": "spell_power:spell_power.lightning",
+      "note": "Lightning Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:rotten_flesh",
+      "result": "spell_power:spell_power.soul",
+      "note": "Soul Power"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:glow_berries",
+      "result": "spell_power:spell_power.critical_chance",
+      "note": "Spell Volatility"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:sugar",
+      "result": "spell_power:spell_power.critical_damage",
+      "note": "Amplify Spell"
+    },
+    {
+      "base": "minecraft:thick",
+      "ingredient": "minecraft:chorus_fruit",
+      "result": "spell_power:spell_power.haste",
+      "note": "Spell Haste"
+    },
+    {
+      "base": "minecraft:mundane",
+      "ingredient": "minecraft:sweet_berries",
+      "result": "ranged_weapon:ranged_weapon.damage",
+      "note": "Ranged Damage"
+    },
+    {
+      "base": "minecraft:mundane",
+      "ingredient": "minecraft:feather",
+      "result": "ranged_weapon:ranged_weapon.haste",
+      "note": "Draw Speed"
+    },
+    {
+      "base": "spell_power:spell_power.fire",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.frost",
+      "note": "Inversion"
+    },
+    {
+      "base": "spell_power:spell_power.frost",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.fire",
+      "note": "Inversion"
+    },
+    {
+      "base": "spell_power:spell_power.healing",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.soul",
+      "note": "Inversion"
+    },
+    {
+      "base": "spell_power:spell_power.soul",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.healing",
+      "note": "Inversion"
+    },
+    {
+      "base": "spell_power:spell_power.arcane",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.lightning",
+      "note": "Inversion"
+    },
+    {
+      "base": "spell_power:spell_power.lightning",
+      "ingredient": "minecraft:fermented_spider_eye",
+      "result": "spell_power:spell_power.arcane",
+      "note": "Inversion"
+    }
+  ],
+  "schema_version": 2
+}

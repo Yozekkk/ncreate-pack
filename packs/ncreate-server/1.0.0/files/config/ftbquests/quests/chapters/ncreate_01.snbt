@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_01"
+	group: "75AE6648B4FDF83B"
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "23A9B77770261410"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3004C8CE98FCD7EE"]
+			id: "433EC968DB058953"
+			rewards: [{
+				id: "3A3ED481C8225F22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F3C1D6163B04781"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["433EC968DB058953"]
+			id: "5DF7BEF3145D4134"
+			rewards: [{
+				id: "21BC132572EE82D8"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "45B4FB622F0596AC"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "4D9FAFA1E688146A"
+			rewards: [{
+				id: "1460B1D92FE88A3B"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "7E997A926DE86883"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "6419679F9D09A449"
+			rewards: [{
+				id: "4E9D6E946FBABDAF"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "777D861ED8736719"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6419679F9D09A449"]
+			id: "432BF9E2CEC79B41"
+			rewards: [{
+				id: "10069C91885F49AE"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "517626F5A3408AE6"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["795E9902330DC624"]
+			id: "3C7788A0F69A06BD"
+			rewards: [{
+				id: "5A6A083135C58CEF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A94CDCC5FCD43F5"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "5A4BCC55E29855E3"
+			rewards: [{
+				id: "3D12C43A71A1458E"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "069A24F83F283F26"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A4BCC55E29855E3"]
+			id: "6E070E8AC9124431"
+			rewards: [{
+				id: "1DE1E51805B1F10E"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "51C312985CC70978"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "616877C1A7B1C815"
+			rewards: [{
+				id: "255C6D9175DAF885"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "48AD6241228DEFAB"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["616877C1A7B1C815"]
+			id: "1BDAE96DBFD8E617"
+			rewards: [{
+				id: "38E662B0CE749D56"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "465A7BEA8EF1C25E"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19F222193DDD9998"]
+			id: "4E3677E8479B078F"
+			rewards: [{
+				id: "4EFDAC465FF4201E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "04123FF536465596"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "2DD448D78323F8A1"
+			rewards: [{
+				id: "57689775F6A9DD09"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "31F883E269BB5A5F"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DD448D78323F8A1"]
+			id: "0AD659572FFACECC"
+			rewards: [{
+				id: "3D8422EC6BDD9C11"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "1D89F3DC060AE489"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0AD659572FFACECC"]
+			id: "5048B80A018BE510"
+			rewards: [{
+				id: "5AF1F6EE327EB1C7"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "7A1C1DBE3DD1048D"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "22E8481E48D7B08A"
+			rewards: [{
+				id: "4F04D6343B872EC8"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "59E8F9DB9F2DF331"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "43DF03565C292161"
+			rewards: [{
+				id: "4C4E1F0EC513886A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1912BDEF3A05EEC4"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "54B0BE20436BE05C"
+			rewards: [{
+				id: "7A9219846A07EF26"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "4F65974E1DD40437"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "3DC2488CED81FE2C"
+			rewards: [{
+				id: "55342D23CA3B1D80"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "33412404BC7EED03"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3DC2488CED81FE2C"]
+			id: "1E6D49FCFAFDA246"
+			rewards: [{
+				id: "17A3AF98693194C1"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "291B4E567F5B6B01"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "6C2A0A33A8B4B80D"
+			rewards: [{
+				id: "6F1A01531211BB89"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "392439CA8AD9219A"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

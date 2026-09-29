@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_03"
+	group: ""
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "248741E533A1D660"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["214C5B0E7FA712B7"]
+			id: "1F60267F49A81049"
+			rewards: [{
+				id: "72AC7608A5875617"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "684114B615A6C40C"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "49242FB4FE29884B"
+			rewards: [{
+				id: "169F555FE7BF44D1"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "1DE5473EB070488D"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "4935CAD815D04055"
+			rewards: [{
+				id: "5E6E81E5577D4D34"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4465F77D98DE58C2"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "33383AE6BDD1A980"
+			rewards: [{
+				id: "23B26437DE10E850"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "17EAF401F4C58CDA"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "59E472E255F3E07D"
+			rewards: [{
+				id: "2947255A1CD1C6C5"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "6E017F80E2202073"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31447631A0718295"]
+			id: "7C97BEBCEA1083B7"
+			rewards: [{
+				id: "45D07963BEB8F576"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "277E3B775E64CC03"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "461B9C7C337764ED"
+			rewards: [{
+				id: "5F332E98335362E1"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "683A11DBC057DDA6"
+				item: { count: 1, id: "minecraft:iron_leggings" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["461B9C7C337764ED"]
+			id: "6408B8B97BACA414"
+			rewards: [{
+				id: "566D000C8F11066D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "195A4B2785A3A391"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "1F72139B7256911A"
+			rewards: [{
+				id: "56170BD6FBD86C14"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "27EB70411DBF77D1"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F72139B7256911A"]
+			id: "5A34A0795BC93920"
+			rewards: [{
+				id: "36A2D85AF1FE3520"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "67576446E1C4DA1D"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["560E97C4970D570D"]
+			id: "6059349EBBBDD25F"
+			rewards: [{
+				id: "35CB63550196BBAD"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "4BFE819545B8F66C"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6059349EBBBDD25F"]
+			id: "7B1D7259FDAC5D0C"
+			rewards: [{
+				id: "530592F507C5A2BE"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "6EBA6D0390EDCD66"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			id: "517402202D6247C7"
+			rewards: [{
+				id: "69F8D3F8648C466A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "435ACD1612FE9130"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "03D4B03FBEF3A686"
+			rewards: [{
+				id: "0D2408DAFD8E4144"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "7175408FDF881A36"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "204B44583F82EFFD"
+			rewards: [{
+				id: "3513AC49068BB284"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0387DDC5209D2C0D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5211189997E2A23A"]
+			id: "6EC819C1F4722009"
+			rewards: [{
+				id: "73472C242FDFF791"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "7D276032530D929E"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6EC819C1F4722009"]
+			id: "32A4D698202DA0B7"
+			rewards: [{
+				id: "1E6E31AEC19D6F40"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "5A924CF90C056BBC"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "45DC12A91BE353AF"
+			rewards: [{
+				id: "6B4971A7202AA2DB"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "194DAC8825DBD902"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["45DC12A91BE353AF"]
+			id: "5F6718B41B817C93"
+			rewards: [{
+				id: "6449B0A34520CC6A"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "09C6458AC6F036C1"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F6718B41B817C93"]
+			id: "25B3626F592FFF07"
+			rewards: [{
+				id: "57964A1B45668B85"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "15685A2DFF1CCBD5"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_10"
+	group: ""
+	icon: {
+		id: "create:item_vault"
+	}
+	id: "750C8EF05EFF5C60"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "083BA6A5AF1B64FA"
+			rewards: [{
+				id: "194251E3EE4E3BCD"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "6C6BE34656322618"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["083BA6A5AF1B64FA"]
+			id: "295186DFBC81B61D"
+			rewards: [{
+				id: "4CC00F3923FFBC9D"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "28322BC03C10E7A4"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "00CA6A8354B7747C"
+			rewards: [{
+				id: "1609307349341257"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "06BD7D47D6951D2E"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CA6A8354B7747C"]
+			id: "53A8D8359C4DE713"
+			rewards: [{
+				id: "7FF965070C53F1CC"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "4D7F4F46E13EB5AB"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A8D8359C4DE713"]
+			id: "2439CA00AB0843E5"
+			rewards: [{
+				id: "132775C6012BC3A3"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "27413DE4198585DE"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FE6479DEDBB279"]
+			id: "5E559DC5EF2BD854"
+			rewards: [{
+				id: "2212A05D2F10E643"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "4137D117E90F63D7"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "6C4FF11AFBF2C80F"
+			rewards: [{
+				id: "397B7DA5DB302FA1"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "41331A05BEF766E6"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			id: "21043ED2F0BD1A22"
+			rewards: [{
+				id: "7B1243C8BC568795"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "1D3F7DDC6E7C4B97"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21043ED2F0BD1A22"]
+			id: "53F536EF19A65823"
+			rewards: [{
+				id: "7280F32D6E7687E2"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "24C34FA37A02C314"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "15BEE238587556D5"
+			rewards: [{
+				id: "79C93702093770AF"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "471E372FEDDB0135"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "21A3E3453EB9B273"
+			rewards: [{
+				id: "6073B291FD8DD17B"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "3C34EAA1C367811B"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["21A3E3453EB9B273"]
+			id: "5D6385063CCF5246"
+			rewards: [{
+				id: "0A69899937E00565"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "7B9C9982B43B9DF5"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D6385063CCF5246"]
+			id: "3E37CDEC077E1761"
+			rewards: [{
+				id: "52E91DDAE73E4484"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "6EA44C43B0BBA7FA"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "7E65AF3A602B18A5"
+			rewards: [{
+				id: "1401373E957BB2CE"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "2C0E51FF485591EE"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "0B19BFBF081C9F25"
+			rewards: [{
+				id: "386C2823FCDBE282"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "10E7ECC48D26E4D5"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "672D5C130BAC01FE"
+			rewards: [{
+				id: "35ED2324A2C456F8"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "07C4040E75DFC4F5"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "288C3FE6EFB83C76"
+			rewards: [{
+				id: "7C8C5D39BE1EA9FC"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "22095FBFEA4F09A9"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			dependencies: ["288C3FE6EFB83C76"]
+			id: "5E92B973C2F021FC"
+			rewards: [{
+				id: "20E2172388B36286"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "5B371C4842F00341"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E92B973C2F021FC"]
+			id: "0987DD28A5F98C60"
+			rewards: [{
+				id: "3E218CF4D9EC6434"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				id: "2C40BD253AED787D"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "61854E22208CFEF3"
+			rewards: [{
+				id: "03CAE02A521A15D3"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "021D599BDD31FAA8"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

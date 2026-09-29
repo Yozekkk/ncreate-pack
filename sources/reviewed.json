@@ -1,0 +1,92 @@
+{
+  "109b159e32cf62000844501eae71a6a8e65d2ba0eec1cccdaf030ac0db97b956b45a7c50eb2eb757e866236d93bb627ba31ddeab4cb033f337e60fdd9d503d79": {
+    "fileId": 8834375,
+    "licenseNote": "All Rights Reserved; CurseForge project 1495820",
+    "projectId": 1495820,
+    "provider": "curseforge",
+    "sha256": "43bd2181b0437da6eb72896cadf378ac4cf26b188d2fa0cde9c6962eb3b8c2a1",
+    "size": 1106486,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/ranks-progression-levelling-stats-custom-objectives-chat-tab-multiplayer-coop/files/8834375",
+    "url": "https://mediafilez.forgecdn.net/files/8834/375/ranks-1.67.0.jar"
+  },
+  "1fd5269769bb7c036a2366c17de45add12e5349856161f40c6a517faf3ed978ed8536f8c613c1b74b6c2cd4c6ba71b400fdbcdf915a9f9b8a9bbd0030bfd2409": {
+    "licenseNote": "All Rights Reserved; FTB official Maven",
+    "provider": "ftb",
+    "sha256": "f587e13131101bac33d4cc7a04d13d06c00f8f88a892be90d6ffc8ad96119ae8",
+    "size": 148575,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-xmod-compat-neoforge/21.1.12/ftb-xmod-compat-neoforge-21.1.12.jar"
+  },
+  "21c9350c6c7ec54ee54b74f2bdc0a44f91005bedda3caf27d673b2f2bcad1dbef5aec970201ec8e959db2a1743ceb2e24ae99a9e36744dce740a0ab1dad01c52": {
+    "licenseNote": "All Rights Reserved; FTB official Maven",
+    "provider": "ftb",
+    "sha256": "e6bcd670493624e6906df872a9c6af4a33fe6405cac57a32c59cd4cd5838c655",
+    "size": 308236,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.jar"
+  },
+  "2ab8333a3334f01e931a007849d7a603ec60e693c376aee164f68ad6672846c2e1e48a863f4135e980989711c944be451bfd5a383000a9eeb94f242d0661411e": {
+    "fileId": 5788529,
+    "licenseNote": "All Rights Reserved; CurseForge project 301700",
+    "projectId": 301700,
+    "provider": "curseforge",
+    "sha256": "36f998130395b23ace89c9e54bffb6e18de3af53420c81dc29fce349408f4433",
+    "size": 674321,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/gobber/files/5788529",
+    "url": "https://mediafilez.forgecdn.net/files/5788/529/Gobber-NeoForge-1.21.1-2.10.15.jar"
+  },
+  "35298874f77fc15d1b66478092ec447db73ddaf699431e1529e41a5b4c421abf9cddc0d491385e45862eec816ade0bfbb92f267a035bfe2587b2b82683b61ad1": {
+    "licenseNote": "All Rights Reserved; FTB official Maven",
+    "provider": "ftb",
+    "sha256": "6a39982c4b3afc00b1e788041a4f0d394e1659e3b3a6e5d078cd790bc36d0018",
+    "size": 1609984,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-neoforge/2101.1.36/ftb-quests-neoforge-2101.1.36.jar"
+  },
+  "359ad3681aba479486519a79fd227afc608b66d2843afe1f6c7196da6807683792b4ecea761e824f15b03d13d6ff29380b439bdd5bb1d2472a065ae8e83743d9": {
+    "licenseNote": "Custom license / CC-BY-NC-ND-4.0; Modrinth version API returns 404 but embedded CDN URL works",
+    "provider": "modrinth-cdn",
+    "sha256": "23921a268acc8b695291f12e89c5e4c261ee5f59a3b6d763793461efb3e7e1d6",
+    "size": 73375661,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm",
+    "url": "https://cdn.modrinth.com/data/46KJle7n/versions/mYBUDZWl/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar"
+  },
+  "4a9d5da624941818868b180ebcda82d73428fe71a8d78a59ef336823a1dd6342cc7710dcca974309b225ff3c031b76a612672d8b136bd9bd7ea3deed43dff609": {
+    "fileId": 7801278,
+    "licenseNote": "MIT; CurseForge project 1072209",
+    "projectId": 1072209,
+    "provider": "curseforge",
+    "sha256": "e9186a3b8029abbe4447ba056e2f8d1bd09df65488c47c3d6cdce19aa5ff2886",
+    "size": 20647,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/mekanism-unleashed/files/7801278",
+    "url": "https://mediafilez.forgecdn.net/files/7801/278/mekanism_unleashed-0.3.4.jar"
+  },
+  "69b0644bd88714d8c4ad82dd5ac7a06ab850b211c4e8ee8dc779205ba3f214f83d7e4899d00f44af1ab66b263904cb5abb5073350e9783e7ed11faa1652a1944": {
+    "licenseNote": "All Rights Reserved; FTB official Maven",
+    "provider": "ftb",
+    "sha256": "5122579e4d55d77057e98a1403b6006dde95d397976fc3c2ee7dd066747c696f",
+    "size": 1439427,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.36/ftb-library-neoforge-2101.1.36.jar"
+  },
+  "783d86f568637d2409d27c1ee12f28e44538fbb5c5a727a5f108bf8cdb55c1595ed742b5a7397a3fbcf62971a7775f14672e9325ba52ed468e89e4114f3efab6": {
+    "fileId": 8734218,
+    "licenseNote": "CurseForge project 1568075; redistribution rights not established",
+    "projectId": 1568075,
+    "provider": "curseforge",
+    "sha256": "545aac756d285d4217b212b82694fd23e25c7eb80577aae2f08d10d18811cf7b",
+    "size": 19070268,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/gilde/files/8734218",
+    "url": "https://mediafilez.forgecdn.net/files/8734/218/gilde-1.1.4.jar"
+  },
+  "c6ac6871b559aa88c53f67eda0f057bcd3cf52c907816d7a806a68f589e69c9dfb63a9fe2feb94ad92ac178353950555cae1e119a6d95db26597175ad0d5ed00": {
+    "fileId": 8648639,
+    "licenseNote": "MIT; CurseForge project 1091339",
+    "projectId": 1091339,
+    "provider": "curseforge",
+    "sha256": "ca64ec07c29cadb0e7703e993fbaad26029ebc4203626d2638aefe989e5be74f",
+    "size": 562895,
+    "sourcePage": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks/files/8648639",
+    "url": "https://mediafilez.forgecdn.net/files/8648/639/alltheleaks-1.1.12%2B1.21.1-neoforge.jar"
+  }
+}

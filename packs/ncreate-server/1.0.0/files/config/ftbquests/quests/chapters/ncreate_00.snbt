@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_00"
+	group: "75AE6648B4FDF83B"
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "23EE814DC8A3EFC4"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "254BB560AA6B6294"
+			rewards: [{
+				id: "4E9FABD629D93714"
+				type: "xp"
+				xp: 8
+			}]
+			tasks: [{
+				id: "734D7918046F544A"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "30D49B772EEDAAB9"
+			rewards: [{
+				id: "2A872DA9943FC36A"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "6FE02166252C8F45"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "3705C3FBF25CE0BC"
+			rewards: [{
+				id: "7F73186B4945C793"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "01A9A0FFF036FFF2"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "0CDD9E31CDBF4BDB"
+			rewards: [{
+				id: "6BBB2E5374051518"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "4F20E79B8184B334"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CDD9E31CDBF4BDB"]
+			id: "3004C8CE98FCD7EE"
+			rewards: [{
+				id: "120416E609578A20"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "08507827EBC31B9F"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "23FA4035A4C901A3"
+			rewards: [{
+				id: "683E0D0CE2587453"
+				type: "xp"
+				xp: 8
+			}]
+			tasks: [{
+				id: "1BB1C409DC73B14E"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23FA4035A4C901A3"]
+			id: "6296E0E0D49F10B5"
+			rewards: [{
+				id: "72FF149CB2127568"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "7D6EA4C9D31D0161"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6296E0E0D49F10B5"]
+			id: "4635DF6E37692913"
+			rewards: [{
+				id: "6342A33EBD052428"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "0ED47E94A56EB325"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4635DF6E37692913"]
+			id: "531CADC033E10C4C"
+			rewards: [{
+				id: "6993B9E570481F55"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "223ED74438658C7C"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "795E9902330DC624"
+			rewards: [{
+				id: "54615B06C6F5BE5F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1230747E1C4A0D85"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "1465134FABF386D5"
+			rewards: [{
+				id: "090E40397B870C60"
+				type: "xp"
+				xp: 8
+			}]
+			tasks: [{
+				id: "6419BE5987A82EA6"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1465134FABF386D5"]
+			id: "5F15D7813459E729"
+			rewards: [{
+				id: "40C768301C98A493"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "0F1932C644D5F7C0"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			id: "706C5244FBE513B1"
+			rewards: [{
+				id: "2AB6827B5BC86CA8"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "44928729271C23D8"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "4B646BC3D832F58F"
+			rewards: [{
+				id: "0D5F3B4C676B0923"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "71BF4E3304F362C4"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "19F222193DDD9998"
+			rewards: [{
+				id: "13F6BF3F41AB8DE5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "692EB621551149F4"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "2D00C196DF61EB8E"
+			rewards: [{
+				id: "21B85595CBEBCF91"
+				type: "xp"
+				xp: 8
+			}]
+			tasks: [{
+				id: "5AB0608DF83353E3"
+				item: { components: { "tfc:food": { creation_date: 7200L }, "tfc:heat": { } }, count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "394038039350ED32"
+			rewards: [{
+				id: "6359EC6542492C9D"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "1AED2EE26C7CC1D7"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			dependencies: ["394038039350ED32"]
+			id: "57EBEC13B4EA3E51"
+			rewards: [{
+				id: "793BF56086466A9C"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "5B4C4F4C589DD8FD"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57EBEC13B4EA3E51"]
+			id: "10D3743CDA34569C"
+			rewards: [{
+				id: "2A411BA832CFE282"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "5FFE54D220EA9AD6"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "3FB2C74ED8595C61"
+			rewards: [{
+				id: "67D03DC0947B3A0C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0C1B659C4DE759C6"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

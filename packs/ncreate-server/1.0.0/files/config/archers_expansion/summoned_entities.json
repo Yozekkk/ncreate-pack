@@ -1,0 +1,23 @@
+{
+  "entries": {
+    "archers_expansion:spell_polar_bear": {
+      "common": {
+        "max_health": 24.0,
+        "movement_speed": 0.32,
+        "attack_damage": 7.0,
+        "follow_range": 16.0
+      },
+      "custom": [
+        {
+          "id": "minecraft:generic.knockback_resistance",
+          "value": 0.25
+        },
+        {
+          "id": "minecraft:generic.attack_speed",
+          "value": 1.0
+        }
+      ]
+    }
+  },
+  "schema_version": 0
+}

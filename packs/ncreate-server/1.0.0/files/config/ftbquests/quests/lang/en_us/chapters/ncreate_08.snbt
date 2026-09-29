@@ -1,0 +1,42 @@
+{
+	quest.05B8E9377F23FBA4.title: "Порог мастерства — Mekanism: энергия и металл"
+	quest.05B8E9377F23FBA4.quest_desc: ["Соберите mekanism:steel_casing и закрепите этот этап прогрессии."]
+	quest.9901DB40A215C7D3.title: "Первый шаг — Mekanism: энергия и металл"
+	quest.9901DB40A215C7D3.quest_desc: ["Этот шаг открывает новые возможности в направлении «Mekanism: энергия и металл»."]
+	quest.267B41534C5AC8CD.title: "Опора для пути — Mekanism: энергия и металл"
+	quest.267B41534C5AC8CD.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.8DA0F95030DEAE86.title: "Следующий рубеж — Mekanism: энергия и металл"
+	quest.8DA0F95030DEAE86.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.D4C54EA200A971A5.title: "Испытание завершено — Mekanism: энергия и металл"
+	quest.D4C54EA200A971A5.quest_desc: ["Соберите mekanism:alloy_infused и закрепите этот этап прогрессии."]
+	quest.09C7250593572834.title: "Материалы разведчика — Mekanism: энергия и металл"
+	quest.09C7250593572834.quest_desc: ["Соберите mekanism:basic_control_circuit и закрепите этот этап прогрессии."]
+	quest.6CE33C5BA6AEFFDA.title: "Следующая экспедиция — Mekanism: энергия и металл"
+	quest.6CE33C5BA6AEFFDA.quest_desc: ["Этот шаг открывает новые возможности в направлении «Mekanism: энергия и металл»."]
+	quest.C550A2E776610DC1.title: "След карты — Mekanism: энергия и металл"
+	quest.C550A2E776610DC1.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.8129373A7DC64F6B.title: "Дальний путь — Mekanism: энергия и металл"
+	quest.8129373A7DC64F6B.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.2C27AA60E24FB601.title: "Возвращение с трофеем — Mekanism: энергия и металл"
+	quest.2C27AA60E24FB601.quest_desc: ["Соберите mekanism:basic_energy_cube и закрепите этот этап прогрессии."]
+	quest.1E0A92B908A0FDA0.title: "Подготовка героя — Mekanism: энергия и металл"
+	quest.1E0A92B908A0FDA0.quest_desc: ["Соберите mekanism:enriched_iron и закрепите этот этап прогрессии."]
+	quest.F2C650B53379B32F.title: "Боевой приём — Mekanism: энергия и металл"
+	quest.F2C650B53379B32F.quest_desc: ["Этот шаг открывает новые возможности в направлении «Mekanism: энергия и металл»."]
+	quest.D6722DFE125836E6.title: "Закалённая экипировка — Mekanism: энергия и металл"
+	quest.D6722DFE125836E6.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.FDFAE856C3E6926F.title: "Опасный противник — Mekanism: энергия и металл"
+	quest.FDFAE856C3E6926F.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.F0C9B6A67181A40D.title: "Имя героя звучит далеко — Mekanism: энергия и металл"
+	quest.F0C9B6A67181A40D.quest_desc: ["Соберите mekanism:steel_casing и закрепите этот этап прогрессии."]
+	quest.65AF85CB3DA57F2F.title: "Соберите основу — Mekanism: энергия и металл"
+	quest.65AF85CB3DA57F2F.quest_desc: ["Соберите mekanism:metallurgic_infuser и закрепите этот этап прогрессии."]
+	quest.EBF805C048C09715.title: "Настройте процесс — Mekanism: энергия и металл"
+	quest.EBF805C048C09715.quest_desc: ["Этот шаг открывает новые возможности в направлении «Mekanism: энергия и металл»."]
+	quest.AF4A0E3D59E27F34.title: "Ускорьте производство — Mekanism: энергия и металл"
+	quest.AF4A0E3D59E27F34.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.2392CD01AE463A3E.title: "Стабильная система — Mekanism: энергия и металл"
+	quest.2392CD01AE463A3E.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.46BF6FA1DEEBD773.title: "Мастерская работает — Mekanism: энергия и металл"
+	quest.46BF6FA1DEEBD773.quest_desc: ["Соберите mekanism:basic_control_circuit и закрепите этот этап прогрессии."]
+}
