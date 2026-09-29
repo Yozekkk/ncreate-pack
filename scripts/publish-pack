@@ -29,8 +29,10 @@ fi
 python3 scripts/import-pack.py "$archive" "$version" --root "$repo"
 npm ci --ignore-scripts
 npm run check
-node scripts/prepare-release.mjs --edition ncreate-server --channel "$channel" --version "$version"
-node scripts/verify-external-sources.mjs dist/manifest.json
+publish_output="$(mktemp -d)"
+trap 'rm -r -- "$publish_output"' EXIT
+node scripts/prepare-release.mjs --edition ncreate-server --channel "$channel" --version "$version" --output "$publish_output"
+node scripts/verify-external-sources.mjs "$publish_output/manifest.json"
 
 git add "packs/ncreate-server/$version"
 git commit -m "release(pack): prepare NCreate Server $version"
