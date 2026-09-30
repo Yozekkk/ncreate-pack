@@ -2,7 +2,7 @@
 
 Официальная серверная сборка NCreate для Minecraft 1.21.1 и NeoForge 21.1.250. Репозиторий содержит версионируемый [manifest](schema/official-edition-v1.schema.json), конфигурации и NCreate resource pack. Сторонние mod JAR-файлы здесь не хранятся: launcher скачивает точные версии из исходных Modrinth, FTB Maven или CurseForge CDN URL и проверяет SHA-256 и размер.
 
-Текущий источник — `packs/ncreate-server/1.0.1/`. Адрес сервера, взятый из исходного клиента: `play.ncreate.online:25076`. Публикуемый manifest находится в `channels/stable/ncreate-server.json` после успешного выпуска. Он появляется в канале только после проверки Release assets и всех внешних загрузок. Manifest 1.0.1 дополнительно содержит provider и доступные project/version ID каждого мода; игровой состав не изменился с 1.0.0.
+Текущий источник — `packs/ncreate-server/1.0.2/`. Адрес сервера, взятый из исходного клиента: `play.ncreate.online:25076`. Публикуемый manifest находится в `channels/stable/ncreate-server.json` после успешного выпуска. Он появляется в канале только после проверки Release assets и всех внешних загрузок. Manifest 1.0.2 содержит адрес сервера, provider и доступные project/version ID каждого мода; игровые файлы не изменились с 1.0.0.
 
 ## Следующая версия
 
