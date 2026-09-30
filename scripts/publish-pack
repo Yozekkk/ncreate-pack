@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 2 || $# -gt 3 ]]; then
-  printf 'Usage: %s PACK.zip VERSION [stable|beta]\n' "$0" >&2
+if [[ $# -lt 2 || $# -gt 4 ]]; then
+  printf 'Usage: %s PACK.zip VERSION [stable|beta] [changelog]\n' "$0" >&2
   exit 2
 fi
 
 archive="$(realpath "$1")"
 version="$2"
 channel="${3:-stable}"
+changelog="${4:-Обновление официальной сборки NCreate Server.}"
 if [[ "$channel" != stable && "$channel" != beta ]]; then
   printf 'Channel must be stable or beta\n' >&2
   exit 2
@@ -26,7 +27,7 @@ if [[ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]]; then
   exit 1
 fi
 
-python3 scripts/import-pack.py "$archive" "$version" --root "$repo"
+python3 scripts/import-pack.py "$archive" "$version" --root "$repo" --changelog "$changelog"
 npm ci --ignore-scripts
 npm run check
 publish_output="$(mktemp -d)"
