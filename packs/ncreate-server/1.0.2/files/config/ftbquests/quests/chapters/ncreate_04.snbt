@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_04"
+	group: ""
+	icon: {
+		id: "minecraft:shield"
+	}
+	id: "4542735AA6FFE274"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["59E472E255F3E07D"]
+			id: "05DFDC0A469DCB7D"
+			rewards: [{
+				id: "30E7272BDD873D83"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "31D19A423FF1CF73"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "055AF09353B5F657"
+			rewards: [{
+				id: "5532B46DA14BFB1C"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "081D71801C11F6C4"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "4C1D207E81C55832"
+			rewards: [{
+				id: "29B3C5F1DD1BCB18"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "2992C7269D8D008E"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C1D207E81C55832"]
+			id: "6979E1C8D29C8188"
+			rewards: [{
+				id: "03CFCD521A81FADF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "62264E9B027E7A80"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "6DCE4A9134C434AC"
+			rewards: [{
+				id: "3CE71F859AD5D2B4"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "572D331A53FFE537"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "3B73A54DF482AD75"
+			rewards: [{
+				id: "7243063023A682B4"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "344BAE47DD35A5AC"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B73A54DF482AD75"]
+			id: "2BCE2E8F16069E92"
+			rewards: [{
+				id: "20E57933173EABA2"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "5D2510041EE0009D"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			id: "0C36B392F858F021"
+			rewards: [{
+				id: "120C245AB4AEFDB7"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "3A48109D18C96C2A"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C36B392F858F021"]
+			id: "494D25D7E8A70A94"
+			rewards: [{
+				id: "3D448992903D7EBF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0F33564C244ED40D"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "6105D22CE92CA130"
+			rewards: [{
+				id: "0A8A933C4CB76E8C"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "01DC2EBECAA25AF7"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "3FDC328572A39624"
+			rewards: [{
+				id: "0D07703D5B3F6FDC"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "44EA49B49EC8C147"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FDC328572A39624"]
+			id: "79BB257604A6A4EC"
+			rewards: [{
+				id: "133F50670FF634F8"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "71B2243EBC67A86F"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79BB257604A6A4EC"]
+			id: "50243359BB8CBDA6"
+			rewards: [{
+				id: "7F74F9ED272020DB"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "6659CF672699FDB1"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["50243359BB8CBDA6"]
+			id: "196E60E3C75858FD"
+			rewards: [{
+				id: "520CF12A9923FC1C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7E2C4F743F94E9E6"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "778482B891A7EBD7"
+			rewards: [{
+				id: "761CF930F0860ECA"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "640A54CBD972617C"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			id: "5FF77F3CA2B0AA77"
+			rewards: [{
+				id: "610210ADB7D35B4E"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "76D8B66A9DAB1743"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5FF77F3CA2B0AA77"]
+			id: "0574B56695E20CCC"
+			rewards: [{
+				id: "0B48A7B07B97CFEF"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "6287B7E2E107BD94"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "002DCF90375D8591"
+			rewards: [{
+				id: "673EC870F47854D7"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "5270CEAAF9E97512"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["002DCF90375D8591"]
+			id: "5A655CE7F7123A66"
+			rewards: [{
+				id: "111D7AF8E98A6A6D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "71054107535E5151"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "5FF948BAD1756A47"
+			rewards: [{
+				id: "1C6F20D3401D2487"
+				type: "xp"
+				xp: 28
+			}]
+			tasks: [{
+				id: "1B7238D05BEB5CA7"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

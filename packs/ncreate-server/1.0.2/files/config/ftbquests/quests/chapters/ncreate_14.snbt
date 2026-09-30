@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_14"
+	group: "5EC70A21D2AD8FE7"
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
+	id: "34F68BB0E06FD310"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["698884E819D83870"]
+			id: "1802A11752611142"
+			rewards: [{
+				id: "6DE83E27C2DBF155"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "03C66CB8B6CCBBF3"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1802A11752611142"]
+			id: "6FD11F5DACDAB2A2"
+			rewards: [{
+				id: "0ED106713CECBCE9"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "58AC6E7F783F50F0"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "4F81439E6AC835A7"
+			rewards: [{
+				id: "59202BA95EDDD26F"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "0BC6F460530A6BA7"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "22B8E5EC2C8F6FEE"
+			rewards: [{
+				id: "4BA9C47694D3A31F"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "723DED54C8512EB2"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B8E5EC2C8F6FEE"]
+			id: "22A73F5A45484812"
+			rewards: [{
+				id: "2672FD72CE4F6CAC"
+				type: "xp"
+				xp: 48
+			}]
+			tasks: [{
+				id: "17176CBCA4317660"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3073343C76301C65"]
+			id: "482103D92A36C243"
+			rewards: [{
+				id: "24FF8A7424F96264"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "12F612EE44CAB557"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["482103D92A36C243"]
+			id: "70448BBF78571AED"
+			rewards: [{
+				id: "09B1F4ED8FD68F7B"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "57B4B2ED313E7758"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			id: "4BAA214AA0BF9964"
+			rewards: [{
+				id: "73DBBD8AA64E9492"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "54ED7B1BE5383ADD"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BAA214AA0BF9964"]
+			id: "67D74C8CE1E77A07"
+			rewards: [{
+				id: "19F5CF50C7149AEA"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "72C5B6B9380791FA"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67D74C8CE1E77A07"]
+			id: "352BA54C5BE27726"
+			rewards: [{
+				id: "6D5456408D23CE46"
+				type: "xp"
+				xp: 48
+			}]
+			tasks: [{
+				id: "4F694F2B2BBA7AB1"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07D4DCDFD2F7D9D2"]
+			id: "2E67C84890E9538A"
+			rewards: [{
+				id: "57534D4B2257675B"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "65C4BF6C208E266B"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E67C84890E9538A"]
+			id: "5D91923545EC8B34"
+			rewards: [{
+				id: "4EDED1C767739A0E"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "0CE7B9807B009401"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			id: "030F302F74CB511B"
+			rewards: [{
+				id: "2066A6C7FF3F89B9"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "5E41ACF1B1DDC310"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "31323AAE367ABDC4"
+			rewards: [{
+				id: "3A8C02FE6455ECF2"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4D84BBA8F3CE8031"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "1D2D7FEF5F145C4A"
+			rewards: [{
+				id: "6953AE6E7EE1B644"
+				type: "xp"
+				xp: 48
+			}]
+			tasks: [{
+				id: "174D2ACCAB4B8A6F"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2AAB3137CC8D4E14"]
+			id: "2480DE7AED2A946B"
+			rewards: [{
+				id: "547E8B3A5FF05B35"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "373D4114DCF7C0C7"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "17EDB01127F3015F"
+			rewards: [{
+				id: "71D7BCF49493F503"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "782F3C2407E8D33D"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "4735DD000AC9903E"
+			rewards: [{
+				id: "3A2400F10AF7E73E"
+				type: "xp"
+				xp: 42
+			}]
+			tasks: [{
+				id: "0CDBB80FA72F216E"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			id: "0B526F8A84959814"
+			rewards: [{
+				id: "3B22026CD9B290EB"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "782B502F36E5EB8D"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "5665464E0A024E3E"
+			rewards: [{
+				id: "4E7E7860ED4C9BCC"
+				type: "xp"
+				xp: 48
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2E1970EB3283B1CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

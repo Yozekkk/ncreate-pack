@@ -1,0 +1,42 @@
+{
+	quest.854261BF5B244414.title: "Порог мастерства — Добро пожаловать в NCreate"
+	quest.854261BF5B244414.quest_desc: ["Соберите minecraft:crafting_table и закрепите этот этап прогрессии."]
+	quest.B26FD1DD03B4B15F.title: "Первый шаг — Добро пожаловать в NCreate"
+	quest.B26FD1DD03B4B15F.quest_desc: ["Этот шаг открывает новые возможности в направлении «Добро пожаловать в NCreate»."]
+	quest.BE1D09C64A52CDCB.title: "Опора для пути — Добро пожаловать в NCreate"
+	quest.BE1D09C64A52CDCB.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.0CDD9E31CDBF4BDB.title: "Следующий рубеж — Добро пожаловать в NCreate"
+	quest.0CDD9E31CDBF4BDB.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.3004C8CE98FCD7EE.title: "Испытание завершено — Добро пожаловать в NCreate"
+	quest.3004C8CE98FCD7EE.quest_desc: ["Соберите minecraft:furnace и закрепите этот этап прогрессии."]
+	quest.23FA4035A4C901A3.title: "Материалы разведчика — Добро пожаловать в NCreate"
+	quest.23FA4035A4C901A3.quest_desc: ["Соберите minecraft:torch и закрепите этот этап прогрессии."]
+	quest.6296E0E0D49F10B5.title: "Следующая экспедиция — Добро пожаловать в NCreate"
+	quest.6296E0E0D49F10B5.quest_desc: ["Этот шаг открывает новые возможности в направлении «Добро пожаловать в NCreate»."]
+	quest.4635DF6E37692913.title: "След карты — Добро пожаловать в NCreate"
+	quest.4635DF6E37692913.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.984838B12FD00D02.title: "Дальний путь — Добро пожаловать в NCreate"
+	quest.984838B12FD00D02.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.795E9902330DC624.title: "Возвращение с трофеем — Добро пожаловать в NCreate"
+	quest.795E9902330DC624.quest_desc: ["Соберите minecraft:wooden_pickaxe и закрепите этот этап прогрессии."]
+	quest.1465134FABF386D5.title: "Подготовка героя — Добро пожаловать в NCreate"
+	quest.1465134FABF386D5.quest_desc: ["Соберите minecraft:stone_pickaxe и закрепите этот этап прогрессии."]
+	quest.CA21B6FBDFCE795E.title: "Боевой приём — Добро пожаловать в NCreate"
+	quest.CA21B6FBDFCE795E.quest_desc: ["Этот шаг открывает новые возможности в направлении «Добро пожаловать в NCreate»."]
+	quest.B5509E85D6CE4AF7.title: "Закалённая экипировка — Добро пожаловать в NCreate"
+	quest.B5509E85D6CE4AF7.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.DE410928A0A7FEA8.title: "Опасный противник — Добро пожаловать в NCreate"
+	quest.DE410928A0A7FEA8.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.19F222193DDD9998.title: "Имя героя звучит далеко — Добро пожаловать в NCreate"
+	quest.19F222193DDD9998.quest_desc: ["Соберите minecraft:shield и закрепите этот этап прогрессии."]
+	quest.93A6490FB5223E68.title: "Соберите основу — Добро пожаловать в NCreate"
+	quest.93A6490FB5223E68.quest_desc: ["Соберите minecraft:bread и закрепите этот этап прогрессии."]
+	quest.394038039350ED32.title: "Настройте процесс — Добро пожаловать в NCreate"
+	quest.394038039350ED32.quest_desc: ["Этот шаг открывает новые возможности в направлении «Добро пожаловать в NCreate»."]
+	quest.57EBEC13B4EA3E51.title: "Ускорьте производство — Добро пожаловать в NCreate"
+	quest.57EBEC13B4EA3E51.quest_desc: ["Подготовьте ресурсы и двигайтесь дальше по ветке NCreate."]
+	quest.EA91DC4EA64FF6A9.title: "Стабильная система — Добро пожаловать в NCreate"
+	quest.EA91DC4EA64FF6A9.quest_desc: ["Награда поможет развивать героя без нарушения баланса."]
+	quest.A153DD41020A4C08.title: "Мастерская работает — Добро пожаловать в NCreate"
+	quest.A153DD41020A4C08.quest_desc: ["Соберите minecraft:chest и закрепите этот этап прогрессии."]
+}

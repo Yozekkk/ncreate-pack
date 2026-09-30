@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_05"
+	group: ""
+	icon: {
+		id: "occultism:chalk_white"
+	}
+	id: "15AB6F87D014C855"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6033FCF1126DBF0B"
+			rewards: [{
+				id: "0377D6F09D4573A2"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "3FDB9A723AADEBFA"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6033FCF1126DBF0B"]
+			id: "78C770BC86F0FFB9"
+			rewards: [{
+				id: "4FAE9684D801069C"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "66C1DFC8296C6D59"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "2162FB6FAFE387ED"
+			rewards: [{
+				id: "25E92BB2584C42ED"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "6B98D6A9F13EA8FE"
+				item: { count: 1, id: "occultism:book_of_binding_foliot" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			id: "67D66493CADC8355"
+			rewards: [{
+				id: "4AA1117E23BC59E2"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "3ACCCBE67E42F75D"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67D66493CADC8355"]
+			id: "3A98FACC343FC00A"
+			rewards: [{
+				id: "7DD3B6873C63F7A2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4AB17BCF77DF9B96"
+				item: { count: 1, id: "occultism:amethyst_dust" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6105D22CE92CA130"]
+			id: "683BC1898F41C379"
+			rewards: [{
+				id: "3FA74393A45BC778"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "734DD18082CEB295"
+				item: { count: 1, id: "occultism:book_of_calling_djinni_manage_machine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["683BC1898F41C379"]
+			id: "3AEFD9C4CA9F3B45"
+			rewards: [{
+				id: "12B6245006A1032F"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "3E425695E708AA9D"
+				item: { count: 1, id: "occultism:book_of_binding_djinni" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEFD9C4CA9F3B45"]
+			id: "5071DA0FC4123654"
+			rewards: [{
+				id: "329EC5FC63431253"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "52946E879E4F05B1"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "54F5C1210097EDA9"
+			rewards: [{
+				id: "5D79E99B9623EB75"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "2A6B5D24AF910CC0"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "06018E070DEB9883"
+			rewards: [{
+				id: "5D21CC7EB552FC3E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3FDEEC1D0264A05F"
+				item: { count: 1, id: "occultism:book_of_binding_foliot" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			id: "5E07A8AC6C00E055"
+			rewards: [{
+				id: "491C6AD304F6838D"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "7BC5132EA6F06AA2"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "38406B13887EF989"
+			rewards: [{
+				id: "5EB813059A0928E3"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "6E6D9FB418128CD8"
+				item: { count: 1, id: "occultism:amethyst_dust" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38406B13887EF989"]
+			id: "7F77CCA5573D3F5D"
+			rewards: [{
+				id: "1A07DA67D5A289B3"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "1332B7C051FBDA05"
+				item: { count: 1, id: "occultism:book_of_calling_djinni_manage_machine" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7F77CCA5573D3F5D"]
+			id: "0A6F9D624F8B8BF7"
+			rewards: [{
+				id: "50FB5605676412A4"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "6800D93D3B4686EE"
+				item: { count: 1, id: "occultism:book_of_binding_djinni" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "7557EA2C41F6FAA5"
+			rewards: [{
+				id: "1819BA0BC1F5FC7F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "344FA15586DFDB4C"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5FF948BAD1756A47"]
+			id: "60140B4A73F0FD2C"
+			rewards: [{
+				id: "49465DD4CB38B87D"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "2543A108D0F9CB9C"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["60140B4A73F0FD2C"]
+			id: "5357F5189086B88B"
+			rewards: [{
+				id: "7981250588E7713C"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "7FA01B4DA5D6F3F8"
+				item: { count: 1, id: "occultism:book_of_binding_foliot" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5357F5189086B88B"]
+			id: "7D66CA27C9BF5EA7"
+			rewards: [{
+				id: "6FABF8E86ADDD548"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "1B5F454FE6737C9D"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			id: "3BD7F5D92B72E1A7"
+			rewards: [{
+				id: "5E1A87988169A6F2"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "77E0DA9F946837D7"
+				item: { count: 1, id: "occultism:amethyst_dust" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			id: "16312ECF7067595C"
+			rewards: [{
+				id: "735C27BBD7DC903C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1F63343554B79588"
+				item: { count: 1, id: "occultism:book_of_calling_djinni_manage_machine" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

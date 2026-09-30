@@ -1,0 +1,6 @@
+{
+  "disable_special_lne_weapons": false,
+  "second_wind_missing_health_heal_min_range": 0.1,
+  "second_wind_missing_health_heal_max_range": 0.35,
+  "second_wind_max_heal_hearts": 50.0
+}

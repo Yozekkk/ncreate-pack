@@ -1,0 +1,65 @@
+{
+  "bonuses": {
+    "tiers": {
+      "copper": {
+        "ringArmor": 0.5,
+        "necklaceHealth": 1.0,
+        "toughness": 0.0,
+        "gemPercent": 0.01,
+        "gemPercentDiamondEmerald": 0.01,
+        "sapphireHealth": 1.0,
+        "critChance": 0.01,
+        "critDamage": 0.025
+      },
+      "iron": {
+        "ringArmor": 1.0,
+        "necklaceHealth": 2.0,
+        "toughness": 0.0,
+        "gemPercent": 0.02,
+        "gemPercentDiamondEmerald": 0.02,
+        "sapphireHealth": 1.5,
+        "critChance": 0.02,
+        "critDamage": 0.05
+      },
+      "gold": {
+        "ringArmor": 1.5,
+        "necklaceHealth": 3.0,
+        "toughness": 0.0,
+        "gemPercent": 0.04,
+        "gemPercentDiamondEmerald": 0.03,
+        "sapphireHealth": 2.0,
+        "critChance": 0.03,
+        "critDamage": 0.075
+      },
+      "diamond": {
+        "ringArmor": 2.0,
+        "necklaceHealth": 4.0,
+        "toughness": 0.5,
+        "gemPercent": 0.08,
+        "gemPercentDiamondEmerald": 0.04,
+        "sapphireHealth": 3.0,
+        "critChance": 0.04,
+        "critDamage": 0.1
+      },
+      "netherite": {
+        "ringArmor": 3.0,
+        "necklaceHealth": 6.0,
+        "toughness": 1.0,
+        "gemPercent": 0.1,
+        "gemPercentDiamondEmerald": 0.05,
+        "sapphireHealth": 4.0,
+        "critChance": 0.05,
+        "critDamage": 0.125
+      }
+    }
+  },
+  "loot": {
+    "injectIntoLoot": true,
+    "goldNecklaceChance": 0.1,
+    "diamondChance": 0.12,
+    "netheriteChance": 0.03
+  },
+  "kit": {
+    "allowUnsocketing": true
+  }
+}

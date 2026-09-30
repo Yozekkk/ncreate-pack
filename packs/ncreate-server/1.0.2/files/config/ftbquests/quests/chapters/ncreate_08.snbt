@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ncreate_08"
+	group: ""
+	icon: {
+		id: "mekanism:steel_casing"
+	}
+	id: "00B33B22F10AA9E2"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52FBF13CB7EDCBA4"]
+			id: "05B8E9377F23FBA4"
+			rewards: [{
+				id: "3DE921B8DF644604"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "5D231188D0810F24"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B8E9377F23FBA4"]
+			id: "3EFD56D5C58717B0"
+			rewards: [{
+				id: "43D40F1B0217724D"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "5FEA0B09C07D3D11"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.0d
+		}
+		{
+			id: "267B41534C5AC8CD"
+			rewards: [{
+				id: "2DEF7C6534081942"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "15AE681D13969A8E"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267B41534C5AC8CD"]
+			id: "2B4125DFFC967BB2"
+			rewards: [{
+				id: "3A70788D571E2526"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "5BE6AA18DFF2AA21"
+				item: { count: 1, id: "mekanism:enriched_iron" }
+				type: "item"
+			}]
+			x: 4.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "10F6D21ED0F7497D"
+			rewards: [{
+				id: "4D53DCDAD188CC02"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "5B693B882A1E646C"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 5.6d
+			y: 0.0d
+		}
+		{
+			id: "09C7250593572834"
+			rewards: [{
+				id: "1DD325338AF0F6BA"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "3606277D7261B0DF"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09C7250593572834"]
+			id: "6CE33C5BA6AEFFDA"
+			rewards: [{
+				id: "301A68C3414A9D1A"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "3A6208B380213ACB"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CE33C5BA6AEFFDA"]
+			id: "1BD9C1BEB15E716E"
+			rewards: [{
+				id: "08422555F9B20662"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7C313E6FC1D67AA3"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 7.8d
+			y: 4.0d
+		}
+		{
+			id: "543BF91BD9025D92"
+			rewards: [{
+				id: "5CA7D9E136D431E2"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "54EAC4ACF408FD46"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.0d
+		}
+		{
+			id: "2C27AA60E24FB601"
+			rewards: [{
+				id: "07A6545D00D47A1D"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "5131634575EE5FDB"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 10.6d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4ED7584E01DC7E56"]
+			id: "1E0A92B908A0FDA0"
+			rewards: [{
+				id: "18457CACB60D6635"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "7D0F886E04916BF3"
+				item: { count: 1, id: "mekanism:enriched_iron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E0A92B908A0FDA0"]
+			id: "74DED0E4BE993421"
+			rewards: [{
+				id: "66BAB2A41F14295F"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "4D9A6694A13B7709"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.0d
+		}
+		{
+			id: "1258868AF49D2FA6"
+			rewards: [{
+				id: "155FB53FB268C672"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "09465437D8302A37"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			id: "2ECFE1F4B257A038"
+			rewards: [{
+				id: "6C261B74E0B567EF"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "0CF77C0C456003F2"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.0d
+		}
+		{
+			id: "57B24800625279D9"
+			rewards: [{
+				id: "0E3F0533D411274F"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "783D71D132805F33"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6939EC3B2B488274"]
+			id: "65AF85CB3DA57F2F"
+			rewards: [{
+				id: "111B4F664F3D904A"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "0D918986F2D713B5"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["65AF85CB3DA57F2F"]
+			id: "3BFCC2277BFBE0CB"
+			rewards: [{
+				id: "5D7598E1275BE684"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "6780F4266C797403"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 12.0d
+		}
+		{
+			id: "2F436FCB7C12C6A2"
+			rewards: [{
+				id: "3D18D1311A00E03A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2E1C20F5FB91C1AB"
+				item: { count: 1, id: "mekanism:enriched_iron" }
+				type: "item"
+			}]
+			x: 17.8d
+			y: 12.0d
+		}
+		{
+			id: "2392CD01AE463A3E"
+			rewards: [{
+				id: "6D336A54BED00898"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "36637E6091A7B642"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2392CD01AE463A3E"]
+			id: "46BF6FA1DEEBD773"
+			rewards: [{
+				id: "2460035CEA40298F"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "4D767B382FA27504"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.0d
+		}
+	]
+}

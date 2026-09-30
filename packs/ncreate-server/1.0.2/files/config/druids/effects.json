@@ -1,0 +1,22 @@
+{
+  "effects": {
+    "druids:thorned": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "druids:poison_ritual": {
+      "attributes": [
+        {
+          "attribute": "spell_power:nature",
+          "value": 0.3,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    }
+  }
+}
