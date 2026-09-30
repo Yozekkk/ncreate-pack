@@ -68,6 +68,41 @@ def hashes(stream) -> tuple[str, str, int]:
     return sha256.hexdigest(), sha512.hexdigest(), size
 
 
+def reviewed_servers(archive: zipfile.ZipFile) -> list[dict[str, str]]:
+    """Read only NCreate addresses from Minecraft's server-list string tags.
+
+    The original servers.dat may contain unrelated private entries. The
+    publisher recognizes the exact NCreate host and prefers its explicit port.
+    """
+    try:
+        info = archive.getinfo("minecraft/servers.dat")
+    except KeyError:
+        return []
+    if info.file_size > 64 * 1024:
+        raise ValueError("server list exceeds review limit")
+    data = archive.read(info)
+    marker = b"\x08\x00\x02ip"
+    addresses = []
+    offset = 0
+    while (index := data.find(marker, offset)) != -1:
+        length_at = index + len(marker)
+        if length_at + 2 > len(data):
+            raise ValueError("truncated server address")
+        size = int.from_bytes(data[length_at:length_at + 2], "big")
+        end = length_at + 2 + size
+        if end > len(data):
+            raise ValueError("truncated server address")
+        address = data[length_at + 2:end].decode("utf-8")
+        match = re.fullmatch(r"play\.ncreate\.online(?::([1-9]\d{0,4}))?", address)
+        if match and (match.group(1) is None or int(match.group(1)) <= 65535):
+            addresses.append(address)
+        offset = end
+    if not addresses:
+        return []
+    selected = next((value for value in addresses if ":" in value), addresses[0])
+    return [{"name": "NCreate", "address": selected}]
+
+
 def lookup_versions(mods: list[dict]) -> dict:
     result = {}
     for offset in range(0, len(mods), 50):
@@ -128,9 +163,7 @@ def import_pack(zip_path: Path, root: Path, version: str, *, changelog: str) -> 
         minecraft, loader = entries.get("net.minecraft"), entries.get("net.neoforged")
         if not minecraft or not loader:
             raise ValueError("ZIP is not a Minecraft + NeoForge Prism pack")
-        if "minecraft/servers.dat" in seen:
-            # A server list may contain private or unrelated entries. Review separately.
-            pass
+        servers = reviewed_servers(archive)
         with tempfile.TemporaryDirectory(prefix="ncreate-pack-import-") as temporary:
             staging = Path(temporary) / "pack"
             files_dir = staging / "files"
@@ -212,6 +245,7 @@ def import_pack(zip_path: Path, root: Path, version: str, *, changelog: str) -> 
                 "java": {"major": 21},
                 "memory": {"minimumMb": 1024, "recommendedMb": 5120, "maximumMb": 16384},
                 "changelog": changelog,
+                "servers": servers,
             }
             (staging / "edition.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n")
             (staging / "external-sources.json").write_text(json.dumps(external, indent=2, ensure_ascii=False, sort_keys=True) + "\n")

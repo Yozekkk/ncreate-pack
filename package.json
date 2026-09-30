@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "check": "node --test && node scripts/validate-packs.mjs"
+    "check": "node --test && python3 -m unittest discover -s tests -p 'test_*.py' && node scripts/validate-packs.mjs"
   },
   "dependencies": {
     "ajv": "^8.17.1",
